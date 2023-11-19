@@ -12,7 +12,7 @@ fun main() {
 
         //Ejercicio 3
         //Obtenemos los ingredientes del XML
-        var listaIngredietes = objetosIngrediente(doc)
+        val listaIngredietes = objetosIngrediente(doc)
         if (listaIngredietes.isEmpty()){
             throw Exception()
         }
@@ -22,26 +22,22 @@ fun main() {
 
         println("==================================")
 
-        //Ejercicio 4
-        //Creamos un nuevo ingrediente con sus recetas
-        var recetasNaranja = Recetas()
-        recetasNaranja.anadirReceta("Zumo")
-        recetasNaranja.anadirReceta("Pollo a la naranja")
-        var ingrediente = Ingrediente(11,"Naranja",recetasNaranja)
 
-        var xmlNuevoIngrediente = crearIngrediente(doc,ingrediente)
-        guardar_xml("ingredientes.xml", xmlNuevoIngrediente)
 
-        //Volvemos a imprimir todos los ingredientes
-        var listaIngredietesNueva = objetosIngrediente(doc)
-        if (listaIngredietesNueva.isEmpty()){
+        //Ejercicio 5
+        //Añadimos una nueva receta a los objetos obtenidos del xml
+        val listaIngredientesNuevaReceta = objetosIngredienteNuevaReceta(doc,"Tengo hambre")
+        if (listaIngredientesNuevaReceta.isEmpty()){
             throw Exception()
         }
-        for (ingrediente2 in listaIngredietesNueva){
-            println(ingrediente2.toString())
+        for (ingrediente3 in listaIngredientesNuevaReceta){
+            println(ingrediente3.toString())
         }
 
-
+        //Ejercicio 6
+        //Añadimos los ingredientes con la nueva receta a un nuevo xml
+        val xmlNuevo = crearNuevoXML(listaIngredientesNuevaReceta)
+        guardar_xml("ingredientes_2.xml", xmlNuevo)
 
     }catch (e:FileNotFoundException){
         println("Archivo no encontrado o no existe")
