@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<ingredientes>
+  <ingrediente>
+    <numero>1</numero>
+    <nombre>Tomate</nombre>
+    <recetas>
+      <receta>Salsa de tomate</receta>
+      <receta>Ensalada</receta>
+      <receta>Spaghetti Bolognese</receta>
+    </recetas>
+  </ingrediente>
+  <ingrediente>
+    <numero>2</numero>
+    <nombre>Cebolla</nombre>
+    <recetas>
+      <receta>Salsa de tomate</receta>
+      <receta>Lasaña</receta>
+      <receta>Spaghetti Bolognese</receta>
+      <receta>Guiso de verduras</receta>
+    </recetas>
+  </ingrediente>
+  <ingrediente>
+    <numero>3</numero>
+    <nombre>Ajo</nombre>
+    <recetas>
+      <receta>Salsa de tomate</receta>
+      <receta>Lasaña</receta>
+      <receta>Spaghetti Bolognese</receta>
+    </recetas>
+  </ingrediente>
+  <ingrediente>
+    <numero>4</numero>
+    <nombre>Zanahoria</nombre>
+    <recetas>
+      <receta>Guiso de verduras</receta>
+      <receta>Ensalada</receta>
+      <receta>Spaghetti Bolognese</receta>
+    </recetas>
+  </ingrediente>
+  <ingrediente>
+    <numero>5</numero>
+    <nombre>Pollo</nombre>
+    <recetas>
+      <receta>Ensalada César</receta>
+      <receta>Pollo a la parrilla</receta>
+      <receta>Spaghetti Bolognese</receta>
+    </recetas>
+  </ingrediente>
+  <ingrediente>
+    <numero>6</numero>
+    <nombre>Pasta</nombre>
+    <recetas>
+      <receta>Spaghetti Bolognese</receta>
+      <receta>Lasaña</receta>
+    </recetas>
+  </ingrediente>
+  <ingrediente>
+    <numero>7</numero>
+            
+    <nombre>Queso parmesano</nombre>
+            
+    <recetas>
+                  
+      <receta>Spaghetti Bolognese</receta>
+                  
+      <receta>Lasaña</receta>
+              
+    </recetas>
+        
+  </ingrediente>
+      
+  <ingrediente>
+            
+    <numero>8</numero>
+            
+    <nombre>Lechuga</nombre>
+            
+    <recetas>
+                  
+      <receta>Ensalada César</receta>
+                  
+      <receta>Ensalada</receta>
+              
+    </recetas>
+        
+  </ingrediente>
+      
+  <ingrediente>
+            
+    <numero>9</numero>
+            
+    <nombre>Maíz</nombre>
+            
+    <recetas>
+                  
+      <receta>Ensalada</receta>
+                  
+      <receta>Guacamole</receta>
+                  
+      <receta>Guiso de verduras</receta>
+              
+    </recetas>
+        
+  </ingrediente>
+      
+  <ingrediente>
+            
+    <numero>10</numero>
+            
+    <nombre>Aguacate</nombre>
+            
+    <recetas>
+                  
+      <receta>Guacamole</receta>
+                  
+      <receta>Ensalada</receta>
+                  
+      <receta>Pollo a la parrilla</receta>
+              
+    </recetas>
+        
+  </ingrediente>
+  
+</ingredientes>
