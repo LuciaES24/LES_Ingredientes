@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<ingredientes>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><ingredientes>
   <ingrediente>
     <numero>1</numero>
     <nombre>Tomate</nombre>
@@ -56,69 +55,36 @@
   </ingrediente>
   <ingrediente>
     <numero>7</numero>
-            
     <nombre>Queso parmesano</nombre>
-            
     <recetas>
-                  
       <receta>Spaghetti Bolognese</receta>
-                  
       <receta>Lasaña</receta>
-              
     </recetas>
-        
   </ingrediente>
-      
   <ingrediente>
-            
     <numero>8</numero>
-            
     <nombre>Lechuga</nombre>
-            
     <recetas>
-                  
       <receta>Ensalada César</receta>
-                  
       <receta>Ensalada</receta>
-              
     </recetas>
-        
   </ingrediente>
-      
   <ingrediente>
-            
     <numero>9</numero>
-            
     <nombre>Maíz</nombre>
-            
     <recetas>
-                  
       <receta>Ensalada</receta>
-                  
       <receta>Guacamole</receta>
-                  
       <receta>Guiso de verduras</receta>
-              
     </recetas>
-        
   </ingrediente>
-      
   <ingrediente>
-            
     <numero>10</numero>
-            
     <nombre>Aguacate</nombre>
-            
     <recetas>
-                  
       <receta>Guacamole</receta>
-                  
       <receta>Ensalada</receta>
-                  
       <receta>Pollo a la parrilla</receta>
-              
     </recetas>
-        
   </ingrediente>
-  
-</ingredientes>
+<ingrediente><numero>11</numero><nombre>Naranja</nombre><recetas><receta>Zumo</receta><receta>Pollo a la naranja</receta></recetas></ingrediente></ingredientes>

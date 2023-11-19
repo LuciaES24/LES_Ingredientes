@@ -5,7 +5,11 @@ class Ingrediente(num:Int, nombre:String, recetas:Recetas) {
     var recetasIngredente = recetas
 
     override fun toString(): String {
-        return "Ingrediente\nNumero=$numero\nNombre ingrediente='$nombreIngrediente'\nRecetas ingredente=${recetasIngredente}"
+        var cadena = "Ingrediente\nNumero=$numero\nNombre ingrediente='$nombreIngrediente'\nRecetas="
+        for (receta in recetasIngredente.recetas){
+            cadena += receta
+        }
+        return cadena
     }
 
 
